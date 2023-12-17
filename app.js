@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios').default;
-const mongoose = require('mongoose');
 
 const Favorite = require('./models/favorite');
 
