@@ -1,3 +1,5 @@
 # 모든 것을 복사 할 필요가 없으며, 불필요 한 것들은 ignore 처리.
 
+Dockerfile
+.git
 node_modules
