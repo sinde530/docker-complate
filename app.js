@@ -74,7 +74,7 @@ mongoose.connect(
     if (err) {
       console.log(err);
     } else {
-      app.listen(3000);
+      app.listen(process.env.PORT || 3000);
     }
   }
 );
